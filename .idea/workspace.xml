@@ -23,14 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5af1ee2c-f010-4852-902f-7416237e68cd" name="Default Changelist" comment="Added test cases">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RestaurantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RestaurantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/itemNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/itemNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restaurantNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restaurantNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestaurantServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestaurantServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RestaurantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestaurantTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,18 +65,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1j3dWkSDDAPx6QY82pi96lMMvRl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -90,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantServiceTest.removing_restaurant_that_does_not_exist_should_throw_exception">
+  <component name="RunManager" selected="JUnit.RestaurantTest.is_restaurant_open_should_return_true_if_time_is_between_opening_and_closing_time">
     <configuration name="RestaurantServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Restaurant_project -Student version" />
       <useClassPathOnly />
@@ -101,26 +109,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestaurantServiceTest.add_restaurant_should_increase_list_of_restaurants_size_by_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Restaurant_project -Student version" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantServiceTest" />
-      <option name="METHOD_NAME" value="add_restaurant_should_increase_list_of_restaurants_size_by_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestaurantServiceTest.removing_item_from_menu_should_decrease_menu_size_by_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Restaurant_project -Student version" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantServiceTest" />
-      <option name="METHOD_NAME" value="removing_item_from_menu_should_decrease_menu_size_by_1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +127,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantServiceTest.searching_for_existing_restaurant_should_return_expected_restaurant_object" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Restaurant_project -Student version" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RestaurantServiceTest" />
-      <option name="METHOD_NAME" value="searching_for_existing_restaurant_should_return_expected_restaurant_object" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantTest.calculating_total_when_no_item_selected_should_cost_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Restaurant_project -Student version" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="METHOD_NAME" value="calculating_total_when_no_item_selected_should_cost_0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantTest.is_restaurant_open_should_return_true_if_time_is_between_opening_and_closing_time" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Restaurant_project -Student version" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestaurantTest" />
+      <option name="METHOD_NAME" value="is_restaurant_open_should_return_true_if_time_is_between_opening_and_closing_time" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,18 +158,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RestaurantServiceTest" />
-      <item itemvalue="JUnit.RestaurantServiceTest.add_restaurant_should_increase_list_of_restaurants_size_by_1" />
-      <item itemvalue="JUnit.RestaurantServiceTest.removing_item_from_menu_should_decrease_menu_size_by_1" />
-      <item itemvalue="JUnit.RestaurantServiceTest.searching_for_existing_restaurant_should_return_expected_restaurant_object" />
       <item itemvalue="JUnit.RestaurantServiceTest.removing_restaurant_that_does_not_exist_should_throw_exception" />
+      <item itemvalue="JUnit.RestaurantTest.calculating_total_when_no_item_selected_should_cost_0" />
+      <item itemvalue="JUnit.RestaurantTest" />
+      <item itemvalue="JUnit.RestaurantTest.is_restaurant_open_should_return_true_if_time_is_between_opening_and_closing_time" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestaurantServiceTest.removing_restaurant_that_does_not_exist_should_throw_exception" />
+        <item itemvalue="JUnit.RestaurantTest.is_restaurant_open_should_return_true_if_time_is_between_opening_and_closing_time" />
         <item itemvalue="JUnit.RestaurantServiceTest" />
-        <item itemvalue="JUnit.RestaurantServiceTest.searching_for_existing_restaurant_should_return_expected_restaurant_object" />
-        <item itemvalue="JUnit.RestaurantServiceTest.removing_item_from_menu_should_decrease_menu_size_by_1" />
-        <item itemvalue="JUnit.RestaurantServiceTest.add_restaurant_should_increase_list_of_restaurants_size_by_1" />
+        <item itemvalue="JUnit.RestaurantTest" />
+        <item itemvalue="JUnit.RestaurantTest.calculating_total_when_no_item_selected_should_cost_0" />
+        <item itemvalue="JUnit.RestaurantServiceTest.removing_restaurant_that_does_not_exist_should_throw_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -182,109 +189,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added test cases" />
     <option name="LAST_COMMIT_MESSAGE" value="Added test cases" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="309" y="42" key="#Inspections" timestamp="1603179706376">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603179706376" />
-    <state x="163" y="0" key="#Project_Structure" timestamp="1603095212802">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1603095212802" />
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608450223516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608450223516" />
-    <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603097618138">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603097618138" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1603083701992">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603083701992" />
-    <state x="450" y="201" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1603442002241">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="450" y="201" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.728@0.0.1366.728" timestamp="1603442002241" />
-    <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603269120765">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1603269120765" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603180916249">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603180916249" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608451685350">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608451685350" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1608450230694">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608450230694" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1608450230694">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608450230694" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1608450230694">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608450230694" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1608450230694">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608450230694" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603209432685">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603209432685" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603209432685">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603209432685" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603209432685">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603209432685" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603209432685">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603209432685" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1603203186112">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1603203186112" />
-    <state x="149" y="0" key="SettingsEditor" timestamp="1606457552298">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="149" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606457552297" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603208989331">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603208989331" />
-    <state x="454" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603442286113">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="454" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1603442286113" />
-    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603204208764">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1603204208764" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603082508830">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603082508830" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,11 +224,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RestaurantServiceTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
